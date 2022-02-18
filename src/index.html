@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      $('#page_log').load('./log.html');
+      $('#page_wizard').load('./wizard.html').hide();
+      $('#page_log').show();
+    </script>
+
+  </head>
+  <body style="text-align: center;height: 100%;">
+    <div>
+      <div id="page_log"        class="main-container"></div>
+      <div id="page_wizard"     class="main-container" style="display: none;"></div>
+  </body>
+</html>

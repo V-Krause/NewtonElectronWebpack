@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    $('#page_log').on('show', () => {
+      console.log("Log -show");
+    });
+    
+    $('#button_loginsok').on('click', () => {        
+      alert("Test");
+      $('.main-container').hide();
+      $('#page_wizard').show();
+    });          
+  </script>
+
+<!-- **************************************************HTML SEITE********************************************************************************* -->
+    <div style="padding-top:100px;">
+      <table align="center">
+      <tbody>
+        <tr>
+          <td ><a href="#" id="button_loginsok" >Login</a></td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </div>
+</html>
